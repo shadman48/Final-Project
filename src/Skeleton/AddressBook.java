@@ -6,9 +6,11 @@ package Skeleton;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
+
+import letsGetThisWorking.Addressbook;
 
 public class AddressBook {
-	private final int listMax = 100;
 	
 	//creating the constructor.
 	public AddressBook(int addressbooklength)
@@ -18,19 +20,31 @@ public class AddressBook {
 	
 	/*
 	 * This method searches the array.
+	 * needs to be a return type 
 	 */
-	public int[] searchBy(String searchby)
+	public void searchBy(String searchby)
 	{
-		String search_by;
-		int[] holdplace = {1,2}; 
-		return holdplace;
+		
 	}
 	/*
 	 * this method sorts the array
 	 */
 	public void sortBy(String sortby)
 	{
-		String sort_by;
+				/*Comparator for sorting the list by Student Name*/
+				Comparator<Addressbook> LastNameComparator = new Comparator<Addressbook>() 
+					{
+						public int compare(Addressbook ln1, Addressbook ln2) 
+							{
+								String LastName1 = ln1.getLastName().toLowerCase();
+								String LastName2 = ln2.getLastName().toLowerCase();
+					
+								//ascending order
+								return LastName1.compareTo(LastName2);
+								//descending order
+								//return LastName2.compareTo(LastName1);
+							}
+					};
 	}
 	
 	
