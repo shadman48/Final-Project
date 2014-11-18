@@ -16,58 +16,105 @@ public class Contact {
 	private String notes;
 	private String zip;
 
-	
-	public Contact(String firstName, String lastName, String zip) 
-    {
-        
-    }
-    
-    public String getFirstName() 
-    {
-    	return firstName;
-    }
-    public void setFirstName(String firstName) 
-    {
+	public Contact(String firstName, String lastName, String zip) {
 
-    }
-    //last name
-    public String getLastName() 
-    {
-    	return lastName;
-    }
-    public void setLastName(String lastName) 
-    {
-
-    }
-    public String getZip() 
-    {
-    return zip;
-    }
-    public void setZip(String zip) 
-    {
-
-    }
-   
-	public void setStreetAddress()
-	{
-		
-	}
-	public void setEmailAddress()
-	{
-		
-	}
-	public void setPhoneNumber()
-	{
-		
-	}
-	public void setNotes()
-	{
-		
 	}
 
-	//This returns a string representation of the objects.
-	public String toString()
-	{
+	/*
+	 * returns a string called first name
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+
+	/*
+	 * sets first name
+	 */
+	public void setFirstName(String firstName) {
+
+	}
+
+	/*
+	 * returns a string called first name
+	 */
+	public String getLastName() {
+		return lastName;
+	}
+
+	/*
+	 * sets last name
+	 */
+	public void setLastName(String lastName) {
+
+	}
+
+	/*
+	 * returns a string called first name
+	 */
+	public String getZip() {
+		return zip;
+	}
+
+	/*
+	 * sets zip
+	 */
+	public void setZip(String zip) {
+
+	}
+
+	/*
+	 * returns a string called first name
+	 */
+	public String getStreetAddress() {
+		return streetAdress;
+	}
+	/*
+	 * sets streetAddress
+	 */
+	public void setStreetAddress() {
+
+	}
+	/*
+	 * returns a string called email
+	 */
+	public String getEmailAddress() {
+		return email;
+	}
+	/*
+	 * sets emailAddress
+	 */
+	public void setEmailAddress() {
+
+	}
+	/*
+	 * returns a string called phone number
+	 */
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	/*
+	 * sets phone Number
+	 */
+	public void setPhoneNumber() {
+
+	}
+	/*
+	 * returns a string called notes
+	 */
+	public String getNotes() {
+		return notes;
+	}
+	/*
+	 * sets notes 
+	 */
+	public void setNotes() {
+
+	}
+
+	/*
+	 *  This returns a string representation of the objects.
+	 */
+	public String toString() {
 		return firstName;
 	}
 

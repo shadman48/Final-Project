@@ -10,14 +10,14 @@ import java.util.Collections;
 public class AddressBook {
 	private final int listMax = 100;
 	
-	
+	//creating the constructor.
 	public AddressBook(int addressbooklength)
 	{
-		//sys.out
+		System.out.println("addressbook constructor called");
 	}
 	
 	/*
-	 * Th
+	 * This method searches the array.
 	 */
 	public int[] searchBy(String searchby)
 	{
