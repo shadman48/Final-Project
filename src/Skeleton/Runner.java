@@ -1,17 +1,59 @@
+/**
+ * one object of this class 
+ */
 package Skeleton;
 
 public class Runner {
 
 	public static void main(String[] args) {
 
-		//call contact to add new contact
-
-		AddressBook addressbook = new AddressBook();
+		/*
+		 * creates new addressbook
+		 */
+		public void createAddressBook(){
+			
+		}
 		
-		//System.out.println("hey " + addressbook.printarray());
-				//addressbook.addContact("peter", "knight", "94040")
+		/*
+		 * add contct
+		 * 
+		 */
 		
-		//scanner goes here
+		public void addContact(){
+			
+		}
+		
+		/*
+		 * print the contact list
+		 */
+		
+		public void printAddressBook(){
+			
+		}
+		
+		/*
+		 * retrive user info by last name and print
+		 */
+		
+		public void sortByLastName(){
+			
+		}
+		
+		/*
+		 * retrieve user info by email
+		 */
+		
+		public void sortByEmail(){
+			
+		}
+		
+		/*
+		 * retrive user info by zip
+		 */
+		public void sortByZip(){
+			
+		}
 	}
-
 }
+// add coments
+//

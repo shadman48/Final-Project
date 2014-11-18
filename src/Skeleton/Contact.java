@@ -1,8 +1,10 @@
+/**
+ * Defines a reusable class Contact. One object of class Contact stores the first name, last name, street address, email, phone number, notes, zip
+ */
+
 package Skeleton;
 
 import java.util.Comparator;
-
-import letsGetThisWorking.Addressbook;
 
 public class Contact {
 
@@ -68,22 +70,5 @@ public class Contact {
 	{
 		return firstName;
 	}
-	
-	
-	/*Comparator for sorting the list by Student Name
-	public static Comparator<Contact> LastNameComparator = new Comparator<Contact>() 
-		{
-			public int compare(Contact ln1, Contact ln2) 
-				{
-					String LastName1 = ln1.getLastName().toLowerCase();
-					String LastName2 = ln2.getLastName().toLowerCase();
-		
-					//ascending order
-					return LastName1.compareTo(LastName2);
-		
-					//descending order
-					//return LastName2.compareTo(LastName1);
-				}
-		};*/
 
 }
