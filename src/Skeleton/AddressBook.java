@@ -13,7 +13,7 @@ public class AddressBook {
 	//creating the constructor.
 	public AddressBook(int addressbooklength)
 	{
-		System.out.println("addressbook constructor called");
+	
 	}
 	
 	/*
@@ -31,7 +31,6 @@ public class AddressBook {
 	public void sortBy(String sortby)
 	{
 		String sort_by;
-		System.out.println("sort by method");
 	}
 	
 	
