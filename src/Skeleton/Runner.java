@@ -1,5 +1,5 @@
 /**
- * one object of this class 
+ * one object of this class creats an array.
  */
 package Skeleton;
 
@@ -15,7 +15,7 @@ public class Runner {
 		}
 		
 		/*
-		 * add contct
+		 * add contact
 		 * 
 		 */
 		
@@ -55,5 +55,4 @@ public class Runner {
 		}
 	}
 }
-// add coments
-//
+}
