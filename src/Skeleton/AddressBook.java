@@ -33,7 +33,7 @@ public class AddressBook {
 		String notes;
 
 		Scanner scanner = new Scanner(System.in);
-
+//all of this scaner will be deleted once GUI is implemented
 		System.out.println("Please input your first name: ");
 		firstName = scanner.nextLine();
 		System.out.println("Please input your last name: ");
